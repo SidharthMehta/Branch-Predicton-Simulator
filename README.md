@@ -37,15 +37,15 @@ With BTB:
 ## Running the simulator
 
 1. To simulate a bimodal predictor:  
-**$./sim bimodal <M2> <BTB size> <BTB assoc> <tracefile>**  
+**$./sim bimodal \<M2\> \<BTB size\> \<BTB assoc\> \<tracefile\>**  
 where M2 is the number of PC bits used to index the bimodal table; BTB assoc is the associativity of the BTB, BTB size and BTB assoc are 0 if no BTB is modeled.  
 
 2. To simulate a gshare predictor:  
-**$./sim gshare <M1> <N> <BTB size> <BTB assoc> <tracefile>**  
+**$./sim gshare \<M1\> \<N\> \<BTB size\> \<BTB assoc\> \<tracefile\>**  
 where M1 and N are the number of PC bits and global branch history register bits used to index the gshare table, respectively; BTB assoc is the associativity of the BTB, BTB size and BTB assoc are 0 if no BTB is modeled.  
 
 3. To simulate a hybrid predictor:  
-**$./sim hybrid <K> <M1> <N> <M2> <BTB size> <BTB assoc> <tracefile>**  
-  where K is the number of PC bits used to index the chooser table, M1 and N are the number of PC bits and global branch history register bits used to index the gshare table (respectively), and M2 is the number of PC bits used to index the bimodal table. BTB assoc is the associativity of the BTB, BTB size and BTB assoc are 0 if no BTB is modeled.  
+**$./sim hybrid \<K\> \<M1\> \<N\> \<M2\> \<BTB size\> \<BTB assoc\> \<tracefile\>**  
+where K is the number of PC bits used to index the chooser table, M1 and N are the number of PC bits and global branch history register bits used to index the gshare table (respectively), and M2 is the number of PC bits used to index the bimodal table. BTB assoc is the associativity of the BTB, BTB size and BTB assoc are 0 if no BTB is modeled.  
 
 tracefile is the filename of the input trace.
