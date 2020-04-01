@@ -31,8 +31,8 @@ With BTB:
 3. number of predictions from Branch Predictor (number of BTB hits)  
 4. number of mispredictions from Branch Predictor (predicted taken when not-taken, or predicted not-taken when taken)  
 5. number of banches miss in BTB and taken (number of mispredictions due to BTB miss)  
-6. total number of mispredictions (item d + item e)  
-7. branch misprediction rate (item f / item b)  
+6. total number of mispredictions (item 4 + item 5)  
+7. branch misprediction rate (item 6 / item 2)  
 
 ## Running the simulator
 
